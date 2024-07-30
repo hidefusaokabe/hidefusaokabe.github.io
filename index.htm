@@ -106,7 +106,62 @@
     </header>
     <section id="showcase">
         <div class="container">
-            <h1>Welcome!</h1>
+            <h1 id="hello"></h1>
+    <script>
+        const hellos = [
+            "Hello!",
+            "Hola!",
+            "Bonjour!",
+            "Hallo!",
+            "Ciao!",
+            "Olá!",
+            "Здравствуйте! (Zdravstvuyte)",
+            "你好! (Nǐ hǎo)",
+            "こんにちは! (Konnichiwa)",
+            "안녕하세요! (Annyeonghaseyo)",
+            "مرحبا! (Marhaba)",
+            "नमस्ते! (Namaste)",
+            "สวัสดี! (Sawasdee)",
+            "שלום! (Shalom)",
+            "हॅलो! (Hello)",
+            "Γειά σου! (Yia sou)",
+            "Bună!",
+            "Tere!",
+            "Ahoj!",
+            "Sveiki!",
+            "Hei!",
+            "Halló!",
+            "Aloha!",
+            "Merhaba!",
+            "Sawubona!",
+            "Salam!",
+            "Cześć!",
+            "Hej!",
+            "Selam!",
+            "Здраво! (Zdravo)",
+            "Kamusta!",
+            "Xin chào!",
+            "Dia dhuit!",
+            "Szia!",
+            "Salut!",
+            "Molo!",
+            "Yassou!",
+            "Saluton!",
+            "Pryvit!",
+            "Habari!",
+            "Sawubona!",
+            "Sannu!",
+            "Kia ora!",
+            "Mhoro!",
+            "Chào bạn!",
+            "Halo!",
+            "Sawubona!",
+            "Hola!"
+        ];
+
+        const randomHello = hellos[Math.floor(Math.random() * hellos.length)];
+        document.getElementById('hello').textContent = randomHello;
+    </script>
             <p>Check back for updates and developments.</p>
         </div>
     </section>
