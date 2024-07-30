@@ -135,6 +135,10 @@
     </section>
     <footer>
         <p>Hidefusa Okabe &copy; 2024</p>
+        <p class="last-updated">Last updated: <span id="last-updated-date"></span></p>
     </footer>
+    <script>
+        document.getElementById('last-updated-date').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
 </body>
 </html>
